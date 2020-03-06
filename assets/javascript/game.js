@@ -14,7 +14,10 @@ $('#loss-tracker').text(losses);
 function newCrystals() {
     numbers = [];
     while(numbers.length < 4){
-        randomNumber = Math.floor(Math.random()*13)
+        function randomInterval(min,max){
+            return Math.floor(Math.random()*(max-min+1) + min);
+        }
+        randomNumber = randomInterval(1,12);
         found = false;
         for (var i=0; i< numbers.length; i++){
             if (numbers[i] === randomNumber){
@@ -38,7 +41,7 @@ function newGame() {
     $('#score').text(counter);
 
     function randomIntFromInterval(min,max){
-           return Math.floor(Math.random()*(max-min)+1);
+           return Math.floor(Math.random()*(max-min+1) + min);
         }
 
     var numberToGuess = randomIntFromInterval(19,120);
