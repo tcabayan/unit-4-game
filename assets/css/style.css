@@ -16,6 +16,7 @@ body {
     padding: 5px 10px;
     margin-left: -90px;
 }
+
 h1{
     background-color: #d3751e;
     color: white;
@@ -24,6 +25,15 @@ h1{
     border: solid 1px #ddd;
 }
 
+#value {
+    color: white; 
+    font-size: 2em;
+}
+
+#status {
+    font-weight: bolder;
+    font-size: 2em;
+}
 
 #instructions {
     background-color: #f1d7bb;
@@ -35,10 +45,11 @@ h1{
 }
 
 #number {
-	background-color: #54c78b;
-	display: inline-block;
-	padding: 15px 85px;
+    background-color: #54c78b;
+    display: inline-block;
+	padding: 0px 195px 50px 0px;
     border: none;
+    font-weight: bolder;
 }
 
 #scoreboard {
@@ -47,6 +58,7 @@ h1{
 	padding: 15px 5px 35px 15px;
     margin-left: 115px;
     border: none;
+    font-weight: bolder;
 
 }
 
