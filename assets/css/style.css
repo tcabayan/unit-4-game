@@ -1,0 +1,117 @@
+#container {
+	width: 100%;
+	height: 90%px;
+	padding-left: 25%;
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+
+body {
+	background-image: url("../images/bush.png");
+    border: solid 2px;
+    font-size: 18px;
+}
+
+.row{
+    padding: 5px 10px;
+    margin-left: -90px;
+}
+h1{
+    background-color: #d3751e;
+    color: white;
+	display:inline;
+	padding: 5px 10px;
+    border: solid 1px #ddd;
+}
+
+
+#instructions {
+    background-color: #f1d7bb;
+    width: 55%; 
+    border: solid 1px #ddd;
+    font-weight: bolder;
+    color: green;
+    line-height: 2em;
+}
+
+#number {
+	background-color: #54c78b;
+	display: inline-block;
+	padding: 15px 85px;
+    border: none;
+}
+
+#scoreboard {
+	background-color: #7ff7e8;
+	display: inline-block;
+	padding: 15px 5px 35px 15px;
+    margin-left: 115px;
+    border: none;
+
+}
+
+#crystals {
+	margin-top: 15px;
+	margin-bottom:26px;
+}
+
+.crystalImage {
+	height: 111px;
+	border: solid 1px;
+	margin-left: 10px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.crystalImage:firstchild {
+	margin-left: 0px;
+
+}
+
+#score-text {
+    margin-bottom: 50px;
+    border: none;
+    background-color: #009688;
+}
+
+#total-score {
+	margin-bottom: 50px;
+    border: none;
+    background-color: #009688;
+}
+
+#your-score {
+    color: white;
+    font-weight: bolder;
+}
+
+#score {
+    color: white;
+    font-size: 3em;
+    font-weight: bolder;
+    padding: 0px 0px 100px 0px;
+}
+
+/*Targeting Tablets and desktop*/
+@media only screen and (min-width: 768px){
+	body{
+		background-image:url("../images/bush.png");
+			width: auto;
+			height: auto;
+			margin: 1px;
+			padding: 10px;
+        }
+}
+	
+/*Targetting phones */
+@media only screen and (max-width: 767px){
+	body{
+		background-image: url("../images/bush.png");
+			width: auto;
+			height: auto;
+			margin: 1px;
+			padding: 10px;
+	}
+}
+
+	
